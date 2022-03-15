@@ -1,0 +1,42 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+body {
+    background: #f2f2f2;
+}
+.NavBG{
+  background: #232f3e;
+}
+.carousel-inner div img {
+    height: 350px;
+    object-fit: cover;
+}
+.carousel-caption{
+  z-index: 3;
+}
+.progress {
+    height: 1.8rem;
+    border-radius: 30px;
+}
+.AboutUsContainer{
+  background-color: #273f5e;
+clip-path: polygon(0 0%, 100% 0, 100% 100%, 0 92%);
+}
+.AboutUsImg {
+    filter: brightness(0.8);
+}
+div#servicesID {
+    box-shadow: 0px 0px 15px 4px #d4d4d4;
+}
+.accordion-button{
+    color:white !important;
+     background: white;
+}
+.accordion-header button{
+  background: #232f3e;
+}
+.accordion-button:not(.collapsed) {
+    background-color: #ff4104;
+}
